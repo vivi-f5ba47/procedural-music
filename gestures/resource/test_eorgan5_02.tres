@@ -1,8 +1,9 @@
-[gd_resource type="Resource" load_steps=2 format=3 uid="uid://bptdsm8p6ar1o"]
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://d1uk8kboy4bgm"]
 
-[ext_resource type="AudioStream" uid="uid://u38m2jpmh62g" path="res://gestures/audio/test_eorgan5_01.mp3" id="1_blu80"]
+[ext_resource type="AudioStream" uid="uid://cavg2kc0kxcny" path="res://gestures/audio/test_eorgan5_02.mp3" id="1_vuipg"]
 
 [resource]
-metadata/audio = ExtResource("1_blu80")
-metadata/boldness = 1.0
-metadata/level = 1.0
+metadata/audio = ExtResource("1_vuipg")
+metadata/low = 72
+metadata/high = 79
+metadata/root = 0

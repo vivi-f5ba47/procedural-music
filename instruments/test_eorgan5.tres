@@ -1,9 +1,19 @@
-[gd_resource type="Resource" load_steps=5 format=3 uid="uid://g5jf65edda8j"]
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://g5jf65edda8j"]
 
 [ext_resource type="Resource" uid="uid://cb28m78rflah4" path="res://gestures/resource/test_eorgan5_00.tres" id="1_inr3a"]
-[ext_resource type="Resource" uid="uid://fbn1rj657c40" path="res://gestures/resource/test_eorgan5_01.tres" id="2_8ch1j"]
-[ext_resource type="Resource" uid="uid://bptdsm8p6ar1o" path="res://gestures/resource/test_eorgan5_02.tres" id="3_re3lh"]
-[ext_resource type="Resource" uid="uid://b5djsosugv07" path="res://gestures/resource/test_eorgan5_03.tres" id="4_t1vja"]
+[ext_resource type="AudioStream" uid="uid://kjthhpp7sjvi" path="res://gestures/audio/test_eorgan5_03.mp3" id="2_kn8e3"]
+[ext_resource type="AudioStream" uid="uid://u38m2jpmh62g" path="res://gestures/audio/test_eorgan5_01.mp3" id="3_qd3hj"]
+
+[sub_resource type="Resource" id="Resource_vv54i"]
+metadata/audio = ExtResource("2_kn8e3")
+
+[sub_resource type="Resource" id="Resource_jkljr"]
+metadata/audio = ExtResource("3_qd3hj")
+
+[sub_resource type="Resource" id="Resource_s4vs8"]
+metadata/audio = ExtResource("3_qd3hj")
 
 [resource]
-metadata/gesture_list = [ExtResource("1_inr3a"), ExtResource("2_8ch1j"), ExtResource("3_re3lh"), ExtResource("4_t1vja")]
+metadata/gesture_list = [ExtResource("1_inr3a"), SubResource("Resource_vv54i"), SubResource("Resource_jkljr"), SubResource("Resource_s4vs8")]
+metadata/Level = 1.0
+metadata/Boldness = 1.0

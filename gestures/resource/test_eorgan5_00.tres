@@ -4,5 +4,6 @@
 
 [resource]
 metadata/audio = ExtResource("1_5r6np")
-metadata/boldness = 1.0
-metadata/level = 1.0
+metadata/low = 72
+metadata/high = 79
+metadata/root = 0

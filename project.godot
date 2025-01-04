@@ -20,6 +20,5 @@ config/icon="res://icon.svg"
 folder_colors={
 "res://gestures/audio/": "green",
 "res://gestures/midi-text/": "orange",
-"res://gestures/midi/": "orange",
 "res://gestures/resource/": "green"
 }
