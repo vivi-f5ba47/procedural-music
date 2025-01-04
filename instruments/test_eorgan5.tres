@@ -1,0 +1,9 @@
+[gd_resource type="Resource" load_steps=5 format=3 uid="uid://g5jf65edda8j"]
+
+[ext_resource type="Resource" uid="uid://cb28m78rflah4" path="res://gestures/resource/test_eorgan5_00.tres" id="1_inr3a"]
+[ext_resource type="Resource" uid="uid://fbn1rj657c40" path="res://gestures/resource/test_eorgan5_01.tres" id="2_8ch1j"]
+[ext_resource type="Resource" uid="uid://bptdsm8p6ar1o" path="res://gestures/resource/test_eorgan5_02.tres" id="3_re3lh"]
+[ext_resource type="Resource" uid="uid://b5djsosugv07" path="res://gestures/resource/test_eorgan5_03.tres" id="4_t1vja"]
+
+[resource]
+metadata/gesture_list = [ExtResource("1_inr3a"), ExtResource("2_8ch1j"), ExtResource("3_re3lh"), ExtResource("4_t1vja")]

@@ -1,0 +1,6 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://c0ujcb27y1pap"]
+
+[ext_resource type="Resource" uid="uid://g5jf65edda8j" path="res://instruments/test_eorgan5.tres" id="1_iffd2"]
+
+[resource]
+metadata/instrument_list = [ExtResource("1_iffd2")]

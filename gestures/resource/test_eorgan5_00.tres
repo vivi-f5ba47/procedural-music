@@ -1,0 +1,8 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://cb28m78rflah4"]
+
+[ext_resource type="AudioStream" uid="uid://dox2fn0dx66pk" path="res://gestures/audio/test_eorgan5_00.mp3" id="1_5r6np"]
+
+[resource]
+metadata/audio = ExtResource("1_5r6np")
+metadata/boldness = 1.0
+metadata/level = 1.0

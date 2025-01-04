@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/test_eorgan5_03.mp3-bbcb2cc244d6ce58265f99dbb
 [params]
 
 loop=false
-loop_offset=0
-bpm=0
-beat_count=0
+loop_offset=0.0
+bpm=105.0
+beat_count=4
 bar_beats=4

@@ -1,3 +1,17 @@
-[gd_scene format=3 uid="uid://cvswgg8o0db6n"]
+[gd_scene load_steps=4 format=3 uid="uid://cvswgg8o0db6n"]
+
+[ext_resource type="Resource" uid="uid://c0ujcb27y1pap" path="res://songs/test.tres" id="1_h8ai0"]
+
+[sub_resource type="AudioStream" id="AudioStream_kj28g"]
+resource_name = "eorgan5"
+
+[sub_resource type="AudioStreamSynchronized" id="AudioStreamSynchronized_04ier"]
+stream_count = 1
+stream_0/stream = SubResource("AudioStream_kj28g")
+stream_0/volume = 0.0
 
 [node name="Node2D" type="Node2D"]
+
+[node name="AudioStream_test" type="AudioStreamPlayer" parent="."]
+stream = SubResource("AudioStreamSynchronized_04ier")
+metadata/song_pointer = ExtResource("1_h8ai0")
