@@ -4,6 +4,6 @@
 
 [resource]
 metadata/audio = ExtResource("1_vuipg")
-metadata/low = 72
-metadata/high = 79
+metadata/low = 67
+metadata/high = 84
 metadata/root = 0

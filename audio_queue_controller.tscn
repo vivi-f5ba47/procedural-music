@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://btw2rey4aeyuc"]
+
+[ext_resource type="Script" path="res://audio_queue_controller.gd" id="1_g283r"]
+[ext_resource type="Resource" uid="uid://c0ujcb27y1pap" path="res://songs/test.tres" id="2_ggejv"]
+
+[node name="AudioQueueController" type="Node"]
+script = ExtResource("1_g283r")
+song = ExtResource("2_ggejv")
